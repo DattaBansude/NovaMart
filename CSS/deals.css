@@ -1,0 +1,264 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/*nabar*/
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+  
+
+/* Hero Banner */
+.hero-banner {
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Section Titles */
+.deals-section h2, 
+.deal-of-day h2 {
+  margin: 30px 20px 15px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 20px 30px;
+}
+
+/* Product Card */
+.product-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+}
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+.price {
+  font-size: 1rem;
+  color: #222;
+}
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 5px;
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+/* Deal of the Day */
+.deal-of-day .deal-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff8e1;
+  margin: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.deal-card img {
+  max-width: 100%;
+  flex: 1;
+}
+.deal-info {
+  flex: 1;
+  padding: 20px;
+}
+.deal-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.deal-info button {
+  background: #ff4e50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Bundle Offers */
+.bundle-card {
+  background: #e0f7fa;
+  margin: 15px 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+.bundle-card p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.bundle-card button {
+  background: #00796b;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Clearance Section */
+.clearance {
+  background: #fff0f0;
+}
+.clearance h2 {
+  color: red;
+}
+
+/* Footer CTA */
+.footerse {
+   background: #fff0f0;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+.footerse button {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* footersoffooter */
+
+
+footer {
+      background: #222;
+      color: white;
+      padding: 30px 20px;
+    
+
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      /* overflow: hidden; */
+      
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    } 
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      padding: 12px 0;
+      
+      font-size: 18px;
+    }
+
+    .card p {
+      color:black;
+      
+      margin-bottom: 8px;
+    }
+    .card h2{
+        font-size:14px;
+    }
+
+    footer h3 {
+      margin-bottom: 10px;
+      color: orange;
+    }
+
+    footer ul {
+      list-style: none;
+    }
+
+    footer ul li {
+      margin: 6px 0;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: white;
+    }
+
+    footer a:hover {
+      color: orange;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      border-top: 1px solid #444;
+      padding-top: 10px;
+      font-size: 14px;
+    }
