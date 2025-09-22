@@ -2,7 +2,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); */
-  background-image: url("/images/bagroundlogin.jpg");
+  background-image: url("../images/bagroundlogin.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
